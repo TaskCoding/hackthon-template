@@ -1,0 +1,6 @@
+<mp-cells title="Day 1" wx:if="{{timeline.DAY1}}">
+  <mp-cell wx:key="{{item}}" wx:for="{{timeline.DAY1}}" title="{{item.time}}" footer="{{item.title}}"></mp-cell>
+</mp-cells>
+<mp-cells title="Day 2" wx:if="{{timeline.DAY2}}">
+  <mp-cell wx:key="{{item}}" wx:for="{{timeline.DAY2}}" title="{{item.time}}" footer="{{item.title}}"></mp-cell>
+</mp-cells>

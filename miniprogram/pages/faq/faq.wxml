@@ -1,0 +1,6 @@
+<mp-cells title="如何报名">
+  <mp-cell title="点击首页菜单中的报名即可报名"></mp-cell>
+</mp-cells>
+<mp-cells title="如何领取餐食？">
+  <mp-cell title="凭您现场领到的身份认证牌领取餐食"></mp-cell>
+</mp-cells>

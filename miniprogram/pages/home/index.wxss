@@ -1,0 +1,13 @@
+.information{
+  height:  200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.information .date {
+  font-weight: 800;
+}
+.information .location {
+  font-weight: 800;
+}

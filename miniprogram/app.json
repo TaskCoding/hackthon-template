@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/register/index",
+    "pages/timeline/index",
+    "pages/faq/faq",
+    "pages/notification/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "Hackthon",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "Intro"
+      },
+      {
+        "pagePath": "pages/timeline/index",
+        "text": "Timeline"
+      },
+      {
+        "pagePath": "pages/notification/index",
+        "text": "Notifications"
+      }
+    ]
+  },
+  "debug": false,
+  "sitemapLocation": "sitemap.json"
+}

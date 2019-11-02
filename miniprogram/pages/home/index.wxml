@@ -1,0 +1,10 @@
+<mp-form-page title="{{config.title}}" subtitle="{{config.subtitle}}">
+  <view class="information">
+    <view class='date'>{{config.date}}</view>
+    <view class='location'>{{config.location}}</view>
+  </view>
+  <view class='p5' slot="button">
+    <button class="weui-btn" wx:if="{{!register}}" type="primary" bindtap="goToRegister">报名</button>
+    <button class="weui-btn" wx:if="{{register}}" type="primary" bindtap="goToFaq">查看 FAQ</button>
+  </view>
+</mp-form-page>

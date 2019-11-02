@@ -1,0 +1,19 @@
+<mp-form-page title="报名" subtitle="填写下方信息，报名 Hackthon">
+  <mp-form id="form" rules="{{rules}}" models="{{formData}}">
+    <mp-cells title="个人信息" footer="上述信息将用于您的现场活动报名">
+      <mp-cell prop="name" title="姓名" ext-class="weui-cell_vcode">
+        <input bindinput="formInputChange" data-field="name" class="weui-input" placeholder="请输入姓名" />
+      </mp-cell>
+      <mp-cell prop="mobile" title="手机号" ext-class=" weui-cell_vcode">
+        <input bindinput="formInputChange" data-field="mobile" class="weui-input" placeholder="请输入手机号" />
+      </mp-cell>
+      <mp-cell prop="wechat" title="微信号" ext-class=" weui-cell_vcode">
+        <input bindinput="formInputChange" data-field="wechat" class="weui-input" placeholder="请输入微信号" />
+      </mp-cell>
+    </mp-cells>
+  </mp-form>
+
+  <view class='p5' slot="button">
+    <button class="weui-btn" type="primary" bindtap="submitForm">提交</button>
+  </view>
+</mp-form-page>

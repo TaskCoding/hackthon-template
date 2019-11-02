@@ -1,0 +1,4 @@
+@import './miniprogram_npm/weui-miniprogram/weui-wxss/dist/style/weui.wxss';
+.p5{
+  padding: 0rpx 50rpx;
+}

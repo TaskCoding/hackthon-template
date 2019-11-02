@@ -1,0 +1,5 @@
+<block wx:for="{{notifications}}">
+  <mp-cells title="{{item.time}}">
+    <mp-cell title="{{item.title}}"></mp-cell>
+  </mp-cells>
+</block>
